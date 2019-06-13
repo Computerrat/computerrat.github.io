@@ -1,0 +1,25 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+	color: purple;
+}
+
+h2 {
+	text-align: center;
+	color: green;
+}
+
+p {
+	text-align: center;
+	color: yellow;
+}
+
+.clockbox {
+	text-align: center;
+	font-size: 18em;
+	font-weight: bold;
+}
+
