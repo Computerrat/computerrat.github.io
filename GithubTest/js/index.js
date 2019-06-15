@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<title>computerrat.github.io</title>
-<link rel="stylesheet" type="text/css" href="css/index.css"/>
-<link rel="stylesheet" type="text/js" href="js/index.javascript"/>
-<body>
-<h1>Test Page</h1>
-<h2>Nothing more to see here.</h2>
-<p>Bye for now!</p>
-
-<div id="clockbox" style="text-align:center; font:18pt TimesNewRoman;"></div>
-
-<!--<script type="text/javascript">
+<script type="text/javascript">
 function GetClock(){
 var d=new Date();
 var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
@@ -28,7 +16,4 @@ document.getElementById('clockbox').innerHTML=clocktext;
 
 GetClock();
 setInterval(GetClock,1000);
-</script>-->
-
-</body>
-</html>
+</script>
