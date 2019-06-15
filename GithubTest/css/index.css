@@ -17,4 +17,8 @@ p {
 	color: yellow;
 }
 
-
+#clockbox {
+	text-align: center;
+	font-size: 18pt;
+	font-family: TimesNewRoman;
+}
