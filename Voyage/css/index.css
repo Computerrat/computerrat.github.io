@@ -1,0 +1,265 @@
+/* Design layout for New Lands */
+#container {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+   
+}
+
+#myButtona{
+	background-color: #E6BB52;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #E6BB52;
+	margin:auto;
+	display:flex;
+    position: center;
+	cursor:pointer;
+    color:#FFFFFF;
+	font-family: volkorn;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration: none;
+	text-shadow:none;
+}
+
+#myButtona:hover {
+	background-color: #E6BB52;
+	text-decoration: underline;
+}
+
+#myButtona:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonb{
+	background-color: #E6BB52;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #E6BB52;
+	margin:auto;
+	display:inline-block;
+    position: center;
+	cursor:pointer;
+	color: #FFFFFF;
+	font-family: volkorn;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration: none;
+	text-shadow:0px 1px 0px #ffc766;
+}
+
+.myButtonb:hover {
+	background-color: #E6BB52;
+	text-decoration: underline;
+}
+
+.myButtonb:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonc{
+	background-color: #E6BB52;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #E6BB52;
+	margin:auto;
+	display:flex;
+    position: center;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family: volkorn;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration: none;
+	text-shadow:0px 1px 0px #ffc766;
+}
+
+.myButtonc:hover {
+	background-color: #E6BB52;
+	text-decoration: underline;
+}
+
+.myButtonc:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtond{
+	background-color: antiquewhite;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid antiquewhite;
+	margin:auto;
+	display:flex;
+    position: center;
+	cursor:pointer;
+	
+}
+
+#index {
+    
+    background-color: antiquewhite;
+    display: flex;
+}
+
+#compassRose {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+  
+h1 {
+    font-family: volkorn;
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    color: crimson;
+}
+
+h2 {
+    font-family: volkorn;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    color: crimson;
+}
+
+p {
+    font-family: volkorn;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#SpanishCarrack {
+    display: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#krakenAttackingship {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#endlessocean {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#lostcityofgold {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+#castironpot {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+#scaryeyes {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+	.myButtonc{
+	display: none;
+}
+
+
+/* Begin style rules for tablet */
+@media screen and (min-width: 768px) {
+
+	#container {
+	
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: auto;
+	margin-right: auto;
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 3em;
+   
+	}
+
+	p {
+    font-family: volkorn;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: hidden;
+    max-width: 60ch;
+	}
+
+}
+
+/* Begin style rules for laptop/desktop */
+@media screen and (min-width: 1024px) {
+	.outer div{
+		padding: 1%;
+		text-align: center;
+	}
+
+	.inner div{
+		display: inline-block;
+		padding: 1%;
+	}
+
+	#container {
+	margin-top: auto;
+   	margin-bottom: auto;
+   	margin-left: auto;
+   	margin-right: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    padding:3 em;
+       
+	}
+
+	p {
+    font-family: volkorn;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: hidden;
+    max-width: 60ch;
+	}
+	
+	
+	.myButtonc {
+		display: block;
+	}
+
+	.myButtond {
+		display: block;
+	}
+
+	
+
+}	
+
+
+
+
+
+
+
+
+
